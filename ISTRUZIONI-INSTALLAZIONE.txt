@@ -1,0 +1,17 @@
+================================================================================
+ THE JOURNEY OF BEING - UPDATE v24-EN - FULL ENGLISH TRANSLATION
+================================================================================
+CONTENT: all 8 HTML pages in English; images 01, 02, 03, 04, 05, 07
+regenerated with English text (06 'Test' and 08 email image unchanged);
+lang="en"; English meta descriptions; CSS ?v=24.
+
+UPLOAD: the 8 HTML files, css/style.css, the 6 changed images in
+assets/img/, ISTRUZIONI.txt, this file (fixed name, no version),
+README.md. Nothing deleted.
+
+QUICK CHECK: menu reads Home / The Symbol / How It Works / The Path /
+The Nine Types / Triads & Types / Origins / Test; the IN DEPTH formula
+box shows ENNEAGRAM -> 3+6=9 and LAW OF 7 -> 7+2=9; Ctrl+F5 to refresh.
+
+Previous: DT23 (Italian). Current: DT24-EN.
+================================================================================

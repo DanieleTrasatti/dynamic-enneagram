@@ -1,0 +1,16 @@
+THE JOURNEY OF BEING - Enneagram website (version DT24-EN)
+============================================================
+ENGLISH EDITION: all pages, type cards and images translated
+from Italian (DT23). Same structure, styles and filenames.
+
+JOURNEY: Home -> The Symbol -> How It Works -> The Path ->
+The Nine Types -> Triads & Types -> Origins -> Test -> Home.
+Steps: 1 the 'what', 2 'how it works', 3 'how you grow',
+4 'who I am', 5 'how it moves'; Origins = extra; Test = final.
+Type names: Reformer, Helper, Achiever, Individualist,
+Investigator, Loyalist, Enthusiast, Challenger, Peacemaker.
+
+NOTES: webmaster email is an image (08_webmaster_email.png) - never
+write it in plain text; the questionnaire button on test.html is
+external (danieletrasatti.github.io/Enneagramma/); upload
+css/style.css too when updating (?v=24).
