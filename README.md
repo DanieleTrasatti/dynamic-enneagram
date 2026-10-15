@@ -1,4 +1,5 @@
 # enneagramma-dinamico
-Enneagram - The Journey of Being (DT24-EN). Full English edition of the site:
-pages, type cards and images translated; journey unchanged.
-See ISTRUZIONI.txt and ISTRUZIONI-INSTALLAZIONE.txt.
+Enneagramma — Il Viaggio dell'Essere (versione DT29).
+Sito italiano con gadget bilingue: bandierine PNG in fondo al menu; link del
+questionario e IMMAGINI con testo che cambiano con la lingua (data-en; immagini
+inglesi in assets/img/en/). Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE.txt.

@@ -1,16 +1,247 @@
-THE JOURNEY OF BEING - Enneagram website (version DT24-EN)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT29)
 ============================================================
-ENGLISH EDITION: all pages, type cards and images translated
-from Italian (DT23). Same structure, styles and filenames.
 
-JOURNEY: Home -> The Symbol -> How It Works -> The Path ->
-The Nine Types -> Triads & Types -> Origins -> Test -> Home.
-Steps: 1 the 'what', 2 'how it works', 3 'how you grow',
-4 'who I am', 5 'how it moves'; Origins = extra; Test = final.
-Type names: Reformer, Helper, Achiever, Individualist,
-Investigator, Loyalist, Enthusiast, Challenger, Peacemaker.
+STRUTTURA DELLE CARTELLE
+enneagramma-dinamico/
+├── index.html
+├── simbolo.html
+├── metodo.html
+├── cammino.html
+├── tipi.html
+├── triadi-tipi.html
+├── origini.html
+├── test.html
+├── ISTRUZIONI.txt
+├── ISTRUZIONI-INSTALLAZIONE.txt
+├── css/
+│   └── style.css
+└── assets/
+    └── img/
+        ├── 01_simbolo_enneagramma.png
+        ├── 02_legge_ottava.png
+        ├── 03_triadi.png
+        ├── 04_cammino_integrazione.png
+        ├── 05_tessere_nove_tipi.png
+        ├── 06_test_diamante.png
+        ├── 07_tipi_stella.png
+        └── 08_webmaster_email.png
 
-NOTES: webmaster email is an image (08_webmaster_email.png) - never
-write it in plain text; the questionnaire button on test.html is
-external (danieletrasatti.github.io/Enneagramma/); upload
-css/style.css too when updating (?v=24).
+CONTENUTO DELLE PAGINE (8 pagine)
+  index.html         Home — Inizia il viaggio (mappa del percorso)
+  simbolo.html       Il simbolo (forme, 9 poli; teoria separata in
+                     APPROFONDIMENTI: numero 3, numero 9, legge del sette)
+                     — Tappa 1 «che cosa»
+  metodo.html        Come funziona (Essenza, ferita, personalità) — Tappa 2
+  cammino.html       Il cammino di crescita — Tappa 3
+  tipi.html          I nove tipi (schede: ferita/passione/fissazione,
+                     luce, ombra, dinamiche di stress e integrazione;
+                     antidoto anti-oroscopo in evidenza) — Tappa 4
+  triadi-tipi.html   Triadi e Tipi (ali, stress, integrazione, triadi, fasi) — Tappa 5
+  origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
+                     Riso-Hudson...) — Extra
+  test.html          Test (questionario e istruzioni) — Tappa conclusiva
+  css/style.css      Tema v23 (versione DT29) — tutte le pagine lo caricano con ?v=23
+  assets/img/        8 immagini originali
+
+IL PERCORSO DEL VIAGGIO (sequenza DT23)
+  Home → Il simbolo → Come funziona → Il cammino → I nove tipi
+  → Triadi e Tipi → Origini → Test → (il cerchio ricomincia) → Home
+  Novità della DT23 rispetto alla DT22:
+  r) BOX FORMULE: aggiunto spazio extra (una riga) prima della box.
+  s) FILE ISTRUZIONI: da oggi il file delle istruzioni di installazione
+     ha nome FISSO senza numero di versione: ISTRUZIONI-INSTALLAZIONE.txt
+     (rimane uguale a ogni versione).
+  Novità della DT22 rispetto alla DT21:
+  p) PAGINA IL SIMBOLO: premessa testuale inserita subito dopo il
+     titolo APPROFONDIMENTI («L'Enneagramma come lo conosciamo oggi è
+     il risultato del lavoro di psichiatri, psicologi, filosofi, teologi
+     e monaci… leggi cosmiche rappresentate da numeri e simboli
+     universali»).
+  q) BOX FORMULE: i rombi ornamentali sono passati dal bordo superiore
+     e inferiore al bordo SINISTRO e DESTRO della box.
+  Novità della DT21 rispetto alla DT20:
+  n) BOX FORMULE: ripristinati i rombi a 4 punte (era la versione DT18),
+     mantenendo il giallo oro morbido #F2CF82 introdotto con la DT19.
+  o) TRACCIA DI COME FUNZIONA riformattata: «Tappa del percorso: il
+     «come» funziona» a capo «Essenza, ferita, personalità (Tappa 2 di
+     5)»; etichetta della tappa 2 aggiornata anche nel proseguimento di
+     simbolo.html («come funziona»).
+  Novità della DT20 rispetto alla DT19:
+  m) ETICHETTA RINOMINATA: la tappa 2 (metodo) non si chiama più
+     «perché» ma «dinamica» («la dinamica»): traccia di metodo.html,
+     proseguimento di simbolo.html, paragrafo della Home aggiornati.
+  Novità della DT19 rispetto alla DT18:
+  l) ORNAMENTI DELLA BOX FORMULE: i rombi a 4 punte sono diventati
+     STELLE A 9 PUNTE (clip-path CSS, richiamo all'Enneagramma) con
+     riempimento giallo oro più morbido (#F2CF82) e bordo lilla
+     ottenuto con drop-shadow (outline a stella).
+  Novità della DT18 rispetto alla DT17:
+  i) BOX DELLE FORMULE (pagina Il simbolo): sfondo crema chiaro tra il
+     bianco e il crema della pagina (#FCF8EF); cornice a doppia linea
+     lilla con angoli arrotondati e due rombi dorati sopra e sotto
+     (tocco liberty sobrio); leggera ombra.
+  Novità della DT17 rispetto alla DT16:
+  h) PAGINA IL SIMBOLO: più spazio tra il link «Continua il viaggio:
+     Come funziona →» e il separatore; titolo APPROFONDIMENTI in
+     carattere più grande (22px); le due formule (ENNEAGRAMMA → 3+6=9,
+     LEGGE DEL 7 → 7+2=9) spostate in una box/cornice viola centrata
+     sotto il titolo APPROFONDIMENTI.
+  Novità della DT16 rispetto alla DT15:
+  g) PAGINA IL SIMBOLO: eliminata la scorciatoia verso Origini. Prima
+     del separatore APPROFONDIMENTI resta solo il link «Continua il
+     viaggio: Come funziona →» (senza la domanda «Preferisci saltare
+     la parte teorica?»); a fondo pagina è rimasto solo il
+     proseguimento principale verso Come funziona.
+  Novità della DT15 rispetto alla DT14:
+  f) RIMOSSO da tipi.html il paragrafo «Come leggere le schede»: resta
+     solo l'antidoto in evidenza (la frase «Il tipo non descrive ciò che
+     sei: descrive ciò che fai per proteggerti») prima delle schede.
+  Novità della DT14 rispetto alla DT13:
+  a) IL SIMBOLO TORNA SUBITO DOPO HOME, come tappa 1 «che cosa», ma la
+     pagina è stata ripartita: introduzione leggera (forme, nove punti,
+     il riepilogo 3+6=9 / 7+2=9) e, subito dopo, un SEPARATORE GRAFICO
+     con il titolo APPROFONDIMENTI che racchiude tutta la teoria profonda
+     (NUMERO 3, NUMERO 9, legge del sette, esempi quotidiani). Chi non
+     vuole la teoria trova subito sopra il separatore il link di
+     scorciatoia «Continua: Origini dell'Enneagramma →»; lo stesso link
+     resta anche a fondo pagina (secondo link accanto al proseguimento
+     principale verso Come funziona).
+  b) IL TEST È PER ULTIMO: tappa conclusiva «lo specchio», dopo Origini.
+  c) Menu riordinato: Home · Il simbolo · Come funziona · Il cammino ·
+     I nove tipi · Triadi e Tipi · Origini · Test (grassetto).
+  d) Etichette tappa: 1 «che cosa» (simbolo), 2 «perché» (metodo),
+     3 «come si cresce» (cammino), 4 «chi sono io» (tipi), 5 «come si
+     muove» (triadi); Origini = Extra; Test = tappa conclusiva.
+  e) Rimandi interni aggiornati: glossa di cammino.html (tipi alla
+     tappa 4, meccanismo alla tappa 5); antidoto di tipi.html («già
+     spiegate nella seconda tappa»); nota sulle frecce di tipi.html
+     («quinta tappa»).
+  Il percorso NON è a senso unico: da ogni pagina si può saltare a
+  qualsiasi altra dal menu di navigazione, come sul cerchio.
+
+NOTE IMPORTANTI
+- FOOTER EMAIL: nel footer di ogni pagina l'email del webmaster è
+  l'immagine assets/img/08_webmaster_email.png (contiene solo
+  l'indirizzo, senza scritta "Webmaster:" prima). NON scrivere mai
+  l'indirizzo email in chiaro nell'HTML: antivirus e filtri web lo
+  oscurano sostituendolo con "[email protected]".
+- La riga email nel footer è centrata (regola footer .webmaster in
+  style.css); l'immagine è ridotta all'altezza del testo della nota
+  (regola img.wm-mail: height .95em), così non attira più attenzione
+  della scritta del footer.
+- FOOTER TESTO: la frase "con la divulgazione di Don Richard Riso e
+  Russ Hudson" inizia a capo (tag <br> nel paragrafo footer .note),
+  senza virgola precedente.
+- FOOTER STILE (DT7): footer compatto come il menu di navigazione —
+  stesso sfondo (#E3D2A6), bordo superiore come il bordo inferiore del
+  menu, testo scuro #352C40 (stesso contrasto dei link del menu);
+  l'immagine email e' rigenerata nello stesso colore scuro e in
+  carattere normale (non grassetto).
+- SEPARATORE APPROFONDIMENTI (DT14): regole css .deep-dive,
+  .deep-line, .deep-title (due linee violai ai lati del titolo);
+  scorciatoia .skip-deep; secondo link in fondo pagina .next .alt.
+- Bottone Test nella pagina test.html: collegamento esterno
+  danieletrasatti.github.io/Enneagramma/ (questionario) e bottone
+  stella verso la pagina dei nove tipi.
+
+PUBBLICAZIONE SU GITHUB PAGES
+  1. github.com → New repository → "enneagramma-sito" → pubblico → Create.
+  2. "uploading an existing file" → trascina TUTTI i file e le cartelle,
+     mantenendo la struttura: le pagine nella root, style.css in css/,
+     le immagini in assets/img/.
+  3. Settings → Pages → Source: branch main, /(root) → Save.
+  4. Dopo 1-2 minuti: https://tuonome.github.io/enneagramma-sito/
+
+VERIFICHE: apertura da smartphone, immagini visibili, tutti i link
+funzionanti, footer con email leggibile in tutte le pagine, voce «Test»
+del menu in grassetto, separatore APPROFONDIMENTI visibile nella pagina
+Il simbolo.
+MODIFICHE: testi nei .html; colori in css/style.css (sezione :root);
+dopo ogni modifica ricorda che le pagine caricano il CSS con ?v=23
+(aumentare il numero se il browser mostra il vecchio stile).
+
+GADGET BILINGUE ITALIANO / ENGLISH (DT25)
+  Il sito resta interamente in ITALIANO, ma nel menu di ogni pagina
+  compare il selettore di lingua con le bandierine 🇮🇹 / 🇬🇧
+  (classe .lang-switch, a destra del menu). La bandierina 🇬🇧 apre la
+  pagina tradotta da Google Translate (proxy translate.goog), la 🇮🇹
+  torna all'originale italiano. Il selettore funziona su qualsiasi
+  dominio (github.io o dominio proprio) perche' l'URL di traduzione
+  viene costruito in JavaScript dal nome dell'host corrente.
+  Non serve alcuna configurazione lato server: carica i file e basta.
+  Nota: la traduzione e' generata da Google al volo sulla pagina
+  pubblicata; la prima traduzione puo' richiedere alcuni secondi.
+
+CRONOLOGIA VERSIONI
+  DT25 → gadget bilingue: selettore 🇮🇹/🇬🇧 nel menu (Google Translate,
+         default italiano). CSS caricato con ?v=25.
+  DT26 → FIX gadget: il proxy translate.goog NON funziona su github.io
+         (errore DNS NXDOMAIN). Sostituito con il widget ufficiale Google
+         Translate che traduce la pagina sul posto (client-side, nessun
+         cambio di dominio). Le bandierine impostano un cookie googtrans
+         e ricaricano la pagina tradotta. CSS caricato con ?v=26.
+  DT27 → bandierine come IMMAGINI PNG (le emoji bandiera non esistono su
+         Windows: comparivano come "IT"/"GB"). Spostate alla FINE del menu
+         (dopo "Test"): il layout del menu e la disposizione su cellulare
+         tornano identiche alla v23. File AGGIUNTI: assets/img/flag-it.png,
+         assets/img/flag-gb.png. CSS caricato con ?v=27.
+  DT28 → LINK DEL QUESTIONARIO DIPENDENTE DALLA LINGUA: su test.html il
+         bottone del questionario ha un attributo data-en; quando la lingua
+         attiva è inglese (cookie googtrans), uno script imposta l’href
+         all’URL inglese. ⚠ PRIMA DEL CARICAMENTO: sostituire in test.html
+         il valore di data-en con l’URL del questionario INGLESE (commento
+         TODO segna il punto). CSS caricato con ?v=28.
+  DT29 → IMMAGINI DIPENDENTI DALLA LINGUA: le immagini con testo (01, 02, 03,
+         04, 05, 07) hanno un attributo data-en che punta alla versione
+         inglese in assets/img/en/ (stessi nomi). In lingua inglese lo script
+         sostituisce anche lo src delle immagini, non solo i link. File
+         AGGIUNTI: assets/img/en/ (6 immagini). CSS caricato con ?v=29.
+  DT4  → baseline iniziale del progetto.
+  DT5  → footer con email come immagine anti-oscuramento; Test reso
+         tappa conclusiva del viaggio; eliminata la frase guida-menu
+         dalla Home; email webmaster: danieletrasattirm@gmail.com.
+  DT6  → immagine email ridotta alla grandezza del testo del footer;
+         footer: "con la divulgazione di Don Richard Riso e Russ
+         Hudson" a capo senza virgola; CSS caricato con ?v=7.
+         Consegna: file singoli, non zip.
+  DT8  → Tipo 2 rinominato "l'Altruista" in tutti i testi e nelle
+         grafiche (CSS caricato con ?v=8).
+  DT10 → prima riorganizzazione del viaggio: I nove tipi per primi,
+         Il simbolo dopo Il cammino; antidoto anti-oroscopo;
+         spiegazione del senso delle frecce; eliminato il duplicato
+         "triadi-tipi (1).html". CSS caricato con ?v=10.
+  DT11 → scambio Il cammino ↔ Triadi e Tipi; mini-definizione di
+         punto di stress/integrazione in cammino.html; paragrafo
+         finale di triadi-tipi.html riscritto come riepilogo.
+         CSS caricato con ?v=11.
+  DT12 → il modello viene prima dello specchio: Come funziona tappa 1,
+         Il cammino tappa 2, I nove tipi tappa 3. CSS caricato con ?v=12.
+  DT13 → il Test diventa tappa 5 «lo specchio» prima di simbolo e
+         origini; voce «Test» del menu in grassetto. CSS con ?v=13.
+  DT14 → IL SIMBOLO RITORNA DOPO HOME come tappa 1, con la teoria
+         separata dietro il separatore APPROFONDIMENTI e scorciatoia
+         «Continua: Origini» prima del separatore e a fondo pagina;
+         IL TEST È L'ULTIMA PAGINA. Nuove regole CSS (.deep-dive,
+         .skip-deep, .next .alt). CSS caricato con ?v=14.
+  DT15 → rimosso da tipi.html il paragrafo «Come leggere le schede»
+         (resta l'antidoto in evidenza). CSS caricato con ?v=15.
+  DT16 → pagina Il simbolo: eliminata la scorciatoia «Continua: Origini»
+         (prima del separatore e a fondo pagina); resta solo
+         «Continua il viaggio: Come funziona →». CSS con ?v=16.
+  DT17 → pagina Il simbolo: formule in box centrata sotto
+         APPROFONDIMENTI, titolo ingrandito, più spazio prima del
+         separatore. Nuova regola CSS .formula-box. CSS con ?v=17.
+  DT18 → box formule: sfondo crema chiaro, cornice doppia lilla con
+         rombi dorati. CSS con ?v=18.
+  DT19 → ornamenti a 9 punte con giallo oro più morbido. CSS con ?v=19.
+  DT20 → tappa 2 rinominata: da «perché» a «dinamica». CSS con ?v=20.
+  DT21 → rombi a 4 punte ripristinati nella box formule (oro morbido);
+         traccia di Come funziona riformattata («il «come» funziona» +
+         a capo «Essenza, ferita, personalità (Tappa 2 di 5)»);
+         etichetta tappa 2: «come funziona». CSS con ?v=21.
+  DT22 → premessa dopo APPROFONDIMENTI; rombi ai lati della box.
+         CSS con ?v=22.
+  DT23 → spazio extra prima della box formule; file istruzioni con
+         nome fisso ISTRUZIONI-INSTALLAZIONE.txt (senza versione).
+         CSS con ?v=23.
+         (La versione DT9 non è mai stata rilasciata.)

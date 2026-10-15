@@ -1,17 +1,40 @@
+
 ================================================================================
- THE JOURNEY OF BEING - UPDATE v24-EN - FULL ENGLISH TRANSLATION
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v29
+ Immagini in inglese quando si sceglie la bandierina 🇬🇧
 ================================================================================
-CONTENT: all 8 HTML pages in English; images 01, 02, 03, 04, 05, 07
-regenerated with English text (06 'Test' and 08 email image unchanged);
-lang="en"; English meta descriptions; CSS ?v=24.
+COSA E' CAMBIATO rispetto alla v28
+  Oltre al link del questionario, anche le IMMAGINI CON TESTO cambiano con
+  la lingua:
+  - ogni immagine traducibile (01 simbolo, 02 legge ottava, 03 triadi,
+    04 cammino, 05 tessere, 07 stella) ha un attributo data-en che punta
+    alla versione inglese nella nuova cartella assets/img/en/;
+  - in lingua inglese (cookie googtrans) lo script sostituisce lo src delle
+    immagini prima della visualizzazione: niente sfarfallio;
+  - le immagini 06 ("Test") e 08 (email) sono identiche nelle due lingue:
+    non vengono scambiate.
 
-UPLOAD: the 8 HTML files, css/style.css, the 6 changed images in
-assets/img/, ISTRUZIONI.txt, this file (fixed name, no version),
-README.md. Nothing deleted.
+FILE AGGIUNTI (6) — da caricare in assets/img/en/ (cartella NUOVA, minuscola):
+  assets/img/en/01_simbolo_enneagramma.png
+  assets/img/en/02_legge_ottava.png
+  assets/img/en/03_triadi.png
+  assets/img/en/04_cammino_integrazione.png
+  assets/img/en/05_tessere_nove_tipi.png
+  assets/img/en/07_tipi_stella.png
 
-QUICK CHECK: menu reads Home / The Symbol / How It Works / The Path /
-The Nine Types / Triads & Types / Origins / Test; the IN DEPTH formula
-box shows ENNEAGRAM -> 3+6=9 and LAW OF 7 -> 7+2=9; Ctrl+F5 to refresh.
+FILE MODIFICATI rispetto alla v28: le 8 pagine HTML (?v=29), ISTRUZIONI.txt,
+questo file, README.md. css/style.css e bandierine invariati.
 
-Previous: DT23 (Italian). Current: DT24-EN.
+ISTRUZIONI
+  1. Carica le 8 pagine HTML nella root e la cartella assets/img/en/ con le
+     6 immagini (mantieni assets/img/ con quelle italiane e le bandierine).
+  2. Ctrl+F5.
+  3. Prova: apri Il simbolo → 🇬🇧 → grafica, titoli e box compaiono in
+     inglese; 🇮🇹 → torna tutto italiano. Vale anche per Triadi, Cammino,
+     I nove tipi, Home.
+
+(Ricorda il TODO della v28: sostituire in test.html il valore di data-en con
+l'URL inglese del questionario, se disponibile.)
+
+Versione precedente: v28. Versione attuale: v29.
 ================================================================================
