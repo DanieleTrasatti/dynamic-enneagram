@@ -1,5 +1,5 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT33).
-Fix bandierine stirate (blocco CSS unico, 36x24); menu mobile: Home e Test
-allineati a destra sulla stessa colonna, 3 righe identiche IT/EN.
+Enneagramma — Il Viaggio dell'Essere (versione DT34).
+Bandierine come SVG inline (mai stirate, mai perse); menu mobile: bandierine
+in alto a destra, Home a sinistra de 'Il simbolo', 3 righe identiche IT/EN.
 Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE.txt.

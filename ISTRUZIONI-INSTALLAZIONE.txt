@@ -1,31 +1,29 @@
 
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v33 (bandierine + allineamento Home/Test)
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v34 (bandierine SVG + menu mobile)
 ================================================================================
-COSA E' CAMBIATO rispetto alla v32
-  1) BANDIERINE STIRATE: le regole CSS delle bandierine nel foglio di stile
-     erano rimaste a pezzi (parte vecchie della v25, parte nuove): ora sono
-     riscritte in UN blocco unico. Bandierine 36x24 pixel — rapporto esatto
-     3:2 come le immagini, quindi NON piu' stirate. Su mobile restano 22x15.
-     Se dopo il caricamento le bandierine fossero ancora strane: svuota la
-     cache del browser (Ctrl+Maiusc+ Cancella dati di navigazione) una volta:
-     il vecchio CSS puo' essere rimasto in memoria con il nome file vecchio.
-  2) MENU MOBILE — HOME ALLINEATA A TEST: nella griglia fissa, Home e Test
-     finiscono ora sulla stessa colonna (destra): il lato esterno destro del
-     box Home coincide con quello del box Test, come richiesto. Le tre righe
-     restano identiche in IT e EN:
-       riga 1: logo "Il Viaggio dell'Essere" + Home (a destra);
-       riga 2: Il simbolo · Come funziona · Il cammino;
-       riga 3: I nove tipi · Triadi e Tipi · Origini · Test · bandierine.
+COSA E' CAMBIATO rispetto alla v33
+  1) BANDIERINE: non sono piu' immagini PNG ma SVG (disegni vettoriali)
+     dentro il codice della pagina. Vantaggi: non possono stirarsi MAI,
+     non spariscono MAI, non dipendono da file esterni, cache o connessione.
+     Le vecchie flag-it.png / flag-gb.png sul server diventano inutilizzate:
+     puoi cancellarle o lasciarle, fa lo stesso. Dimensioni: 36x24 su
+     desktop, 22x15 su mobile — rapporto fisso 3:2.
+  2) MENU MOBILE nuova disposizione:
+       riga 1: logo "Il Viaggio dell'Essere" + BANDIERINE (a destra);
+       riga 2: Home · Il simbolo · Come funziona · Il cammino;
+       riga 3: I nove tipi · Triadi e Tipi · Origini · Test.
+     Identica in IT e EN su ogni pagina.
 
-FILE MODIFICATI rispetto alla v32: css/style.css, le 8 pagine HTML (?v=33),
+FILE MODIFICATI rispetto alla v33: le 8 pagine HTML (?v=34), css/style.css,
 ISTRUZIONI.txt, questo file, README.md. File AGGIUNTI: NESSUNO.
+(Facoltativo: cancella assets/img/flag-it.png e flag-gb.png dal server.)
 
 ISTRUZIONI
-  1. Carica css/style.css (in css/) e le 8 pagine HTML nella root.
-  2. Svuota la cache del browser (una tantum) e ricarica con Ctrl+F5.
-  3. Verifiche: bandierine a rettangolo 3:2 non stirate; su mobile Home e
-     Test con il bordo destro allineato; menu a 3 righe identico IT/EN.
+  1. Carica le 8 pagine HTML nella root e css/style.css in css/.
+  2. Ctrl+F5.
+  3. Verifiche: bandierine perfette su desktop e mobile; su mobile bandierine
+     in alto a destra, Home prima voce della seconda riga; menu identico IT/EN.
 
-Versione precedente: v32. Versione attuale: v33.
+Versione precedente: v33. Versione attuale: v34.
 ================================================================================

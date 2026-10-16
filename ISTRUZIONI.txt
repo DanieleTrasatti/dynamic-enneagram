@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT33)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT34)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -40,7 +40,7 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v23 (versione DT33) — tutte le pagine lo caricano con ?v=23
+  css/style.css      Tema v23 (versione DT34) — tutte le pagine lo caricano con ?v=23
   assets/img/        8 immagini originali
 
 IL PERCORSO DEL VIAGGIO (sequenza DT23)
