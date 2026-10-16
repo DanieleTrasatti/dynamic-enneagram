@@ -157,6 +157,8 @@ nav .lang-switch{margin-left:auto;display:flex;gap:4px;align-items:center}
 nav .lang-switch a{font-size:20px;text-decoration:none;line-height:1;padding:3px 5px;border-radius:6px}
 nav .lang-switch a:hover{background:#f6ead0}
 
+nav .lang-switch img{width:34px;height:23px}
+
 /* DT31 — menu compatto su schermi piccoli: le voci inglesi (piu' lunghe)
    devono occupare le stesse 3 righe di quelle italiane */
 @media (max-width:900px){
@@ -164,4 +166,25 @@ nav .lang-switch a:hover{background:#f6ead0}
   nav a.nl{font-size:11.5px;padding:4px 6px;white-space:nowrap}
   nav .lang-switch{margin-left:0}
   nav .lang-switch img{width:20px;height:14px}
+}
+
+/* DT32 — menu mobile a GRIGLIA FISSA: stessa disposizione in IT e EN.
+   Riga 1: logo + Home (a destra). Riga 2: simbolo, come funziona, cammino.
+   Riga 3: nove tipi, triadi, origini, test + bandierine. */
+@media (max-width:900px){
+  nav .inner{display:grid;grid-template-columns:auto auto auto auto auto 1fr;justify-content:start;gap:5px;
+    grid-template-areas:"lg lg lg lg lg hm" "sm cf ic . . ." "nt tr or tg fl .";}
+  nav .inner>*:nth-child(1){grid-area:lg}
+  nav .inner>*:nth-child(2){grid-area:hm}
+  nav .inner>*:nth-child(3){grid-area:sm}
+  nav .inner>*:nth-child(4){grid-area:cf}
+  nav .inner>*:nth-child(5){grid-area:ic}
+  nav .inner>*:nth-child(6){grid-area:nt}
+  nav .inner>*:nth-child(7){grid-area:tr}
+  nav .inner>*:nth-child(8){grid-area:or}
+  nav .inner>*:nth-child(9){grid-area:tg}
+  nav .inner>*:nth-child(10){grid-area:fl}
+  nav a.nl{font-size:11px;padding:3px 5px;white-space:nowrap}
+  nav .lang-switch{margin-left:0;align-self:center}
+  nav .lang-switch img{width:22px;height:15px}
 }
