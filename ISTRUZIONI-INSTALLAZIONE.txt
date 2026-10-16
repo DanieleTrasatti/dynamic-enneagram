@@ -1,31 +1,31 @@
 
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v32 (bandierine + menu mobile fisso)
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v33 (bandierine + allineamento Home/Test)
 ================================================================================
-COSA E' CAMBIATO rispetto alla v31
-  1) BANDIERINE PIU' GRANDI su desktop: da 24x16 a 34x23 pixel. Su cellulare
-     restano piccole (22x15) per non occupare spazio al menu.
-  2) MENU MOBILE A GRIGLIA FISSA: non piu' dipendente dalla lunghezza delle
-     parole. In ITALIANO e INGLESE, su OGNI pagina, il menu e' sempre:
-       riga 1: logo ("Il Viaggio dell'Essere") con "Home" a destra;
+COSA E' CAMBIATO rispetto alla v32
+  1) BANDIERINE STIRATE: le regole CSS delle bandierine nel foglio di stile
+     erano rimaste a pezzi (parte vecchie della v25, parte nuove): ora sono
+     riscritte in UN blocco unico. Bandierine 36x24 pixel — rapporto esatto
+     3:2 come le immagini, quindi NON piu' stirate. Su mobile restano 22x15.
+     Se dopo il caricamento le bandierine fossero ancora strane: svuota la
+     cache del browser (Ctrl+Maiusc+ Cancella dati di navigazione) una volta:
+     il vecchio CSS puo' essere rimasto in memoria con il nome file vecchio.
+  2) MENU MOBILE — HOME ALLINEATA A TEST: nella griglia fissa, Home e Test
+     finiscono ora sulla stessa colonna (destra): il lato esterno destro del
+     box Home coincide con quello del box Test, come richiesto. Le tre righe
+     restano identiche in IT e EN:
+       riga 1: logo "Il Viaggio dell'Essere" + Home (a destra);
        riga 2: Il simbolo · Come funziona · Il cammino;
        riga 3: I nove tipi · Triadi e Tipi · Origini · Test · bandierine.
-     Le traduzioni inglesi ("The nine types", "Triads and Types"...) non
-     spostano piu' nulla: la griglia assegna a ogni voce la sua cella.
-  3) BANDIERINE CHE "A VOLTE SCOMPAIONO" sul desktop: aggiunti gli attributi
-     width/height alle immagini, cosi' il browser riserva sempre lo spazio
-     anche mentre l'immagine sta caricando (o se la cache e' lenta). Se
-     dovesse capitare ancora: Ctrl+Maiusc+ Cancella cache una volta.
 
-FILE MODIFICATI rispetto alla v31: css/style.css, le 8 pagine HTML (?v=32),
+FILE MODIFICATI rispetto alla v32: css/style.css, le 8 pagine HTML (?v=33),
 ISTRUZIONI.txt, questo file, README.md. File AGGIUNTI: NESSUNO.
 
 ISTRUZIONI
   1. Carica css/style.css (in css/) e le 8 pagine HTML nella root.
-  2. Ctrl+F5.
-  3. Verifiche: bandierine grandi su desktop / piccole su cellulare;
-     su cellulare il menu e' IDENTICO in italiano e inglese, 3 righe fisse;
-     la disposizione non cambia cambiando pagina.
+  2. Svuota la cache del browser (una tantum) e ricarica con Ctrl+F5.
+  3. Verifiche: bandierine a rettangolo 3:2 non stirate; su mobile Home e
+     Test con il bordo destro allineato; menu a 3 righe identico IT/EN.
 
-Versione precedente: v31. Versione attuale: v32.
+Versione precedente: v32. Versione attuale: v33.
 ================================================================================
