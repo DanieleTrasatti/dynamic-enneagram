@@ -20,6 +20,7 @@ var TRANSLATE_FIXES = {
   'Skeptic': 'Loyalist',
   'Optimist': 'Enthusiast',
   'Leader': 'Challenger',
+   'Boss': 'Challenger',
   'Mediator': 'Peacemaker',
   'enneatypes': 'Enneatypes'
 };
