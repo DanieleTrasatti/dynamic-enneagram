@@ -153,36 +153,37 @@ footer .webmaster img.wm-mail{height:.9em;width:auto;vertical-align:-0.1em}
 .formula-box::before{left:-8px}
 .formula-box::after{right:-8px}
 
-nav .lang-switch{margin-left:auto;display:flex;gap:4px;align-items:center}
-nav .lang-switch a{font-size:20px;text-decoration:none;line-height:1;padding:3px 5px;border-radius:6px}
-nav .lang-switch a:hover{background:#f6ead0}
 
-nav .lang-switch img{width:34px;height:23px}
 
 /* DT31 — menu compatto su schermi piccoli: le voci inglesi (piu' lunghe)
    devono occupare le stesse 3 righe di quelle italiane */
 @media (max-width:900px){
   nav .inner{flex-wrap:wrap;gap:4px}
   nav a.nl{font-size:11.5px;padding:4px 6px;white-space:nowrap}
-  nav .lang-switch{margin-left:0}
-  nav .lang-switch img{width:20px;height:14px}
-}
+    }
 
-/* DT32 — menu mobile a GRIGLIA FISSA: stessa disposizione in IT e EN.
-   Riga 1: logo + Home (a destra). Riga 2: simbolo, come funziona, cammino.
-   Riga 3: nove tipi, triadi, origini, test + bandierine. */
+/* DT33 — bandierine e menu mobile (blocco unico, sostituisce DT31/DT32) */
+nav .lang-switch{display:inline-flex;gap:8px;align-items:center;margin-left:12px}
+nav .lang-switch a{padding:0;border-radius:0;line-height:0}
+nav .lang-switch img{display:block;width:36px;height:24px;border-radius:3px;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+nav .lang-switch a:hover img{outline:2px solid #6B4F96}
+
+/* Menu mobile a GRIGLIA FISSA: identico in IT e EN, su ogni pagina.
+   Riga 1: logo + Home; Riga 2: simbolo, come funziona, cammino;
+   Riga 3: nove tipi, triadi, origini, test + bandierine.
+   Home e Test finiscono sulla stessa colonna (destra allineata). */
 @media (max-width:900px){
-  nav .inner{display:grid;grid-template-columns:auto auto auto auto auto 1fr;justify-content:start;gap:5px;
-    grid-template-areas:"lg lg lg lg lg hm" "sm cf ic . . ." "nt tr or tg fl .";}
+  nav .inner{display:grid;grid-template-columns:auto auto auto auto auto;justify-content:start;gap:5px;
+    grid-template-areas:"lg lg lg hm ." "sm cf ic . ." "nt tr or tg fl";}
   nav .inner>*:nth-child(1){grid-area:lg}
-  nav .inner>*:nth-child(2){grid-area:hm}
+  nav .inner>*:nth-child(2){grid-area:hm;justify-self:end}
   nav .inner>*:nth-child(3){grid-area:sm}
   nav .inner>*:nth-child(4){grid-area:cf}
   nav .inner>*:nth-child(5){grid-area:ic}
   nav .inner>*:nth-child(6){grid-area:nt}
   nav .inner>*:nth-child(7){grid-area:tr}
   nav .inner>*:nth-child(8){grid-area:or}
-  nav .inner>*:nth-child(9){grid-area:tg}
+  nav .inner>*:nth-child(9){grid-area:tg;justify-self:end}
   nav .inner>*:nth-child(10){grid-area:fl}
   nav a.nl{font-size:11px;padding:3px 5px;white-space:nowrap}
   nav .lang-switch{margin-left:0;align-self:center}
