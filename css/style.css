@@ -152,3 +152,16 @@ footer .webmaster img.wm-mail{height:.9em;width:auto;vertical-align:-0.1em}
 .formula-box::before,.formula-box::after{content:"";position:absolute;top:50%;transform:translateY(-50%) rotate(45deg);width:12px;height:12px;background:#F2CF82;border:2px solid var(--lilla)}
 .formula-box::before{left:-8px}
 .formula-box::after{right:-8px}
+
+nav .lang-switch{margin-left:auto;display:flex;gap:4px;align-items:center}
+nav .lang-switch a{font-size:20px;text-decoration:none;line-height:1;padding:3px 5px;border-radius:6px}
+nav .lang-switch a:hover{background:#f6ead0}
+
+/* DT31 — menu compatto su schermi piccoli: le voci inglesi (piu' lunghe)
+   devono occupare le stesse 3 righe di quelle italiane */
+@media (max-width:900px){
+  nav .inner{flex-wrap:wrap;gap:4px}
+  nav a.nl{font-size:11.5px;padding:4px 6px;white-space:nowrap}
+  nav .lang-switch{margin-left:0}
+  nav .lang-switch img{width:20px;height:14px}
+}
