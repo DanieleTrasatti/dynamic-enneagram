@@ -1,39 +1,31 @@
 
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v31 (fix bandierine + menu mobile)
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v32 (bandierine + menu mobile fisso)
 ================================================================================
-QUESTA VERSIONE RISOLVE
-  1) BANDIERINE NON VISIBILI (scritta IT/EN + segnaposto rotto):
-     le immagini flag-it.png e flag-gb.png NON erano sul server (errore 404).
-     Sono incluse in questo pacchetto: caricarle in assets/img/ (accanto alle
-     altre immagini, NON dentro sottocartelle). Se l'immagine manca ancora,
-     controllare che il nome della cartella sia esattamente assets/img (tutto
-     minuscolo) e che i nomi file siano esattamente flag-it.png e flag-gb.png.
-  2) MENU SU CELLULARE IN INGLESE con una riga in piu':
-     le voci tradotte ("The nine types", "Triads and Types", ...) sono piu'
-     lunghe di quelle italiane e "Test" finiva da solo su una quarta riga.
-     Aggiunta una regola CSS che rende il menu piu' compatto su schermi
-     piccoli (carattere 11.5px, spazi ridotti): le voci tornano a occupare
-     le stesse 3 righe dell'italiano (Home accanto al titolo; poi simbolo /
-     come funziona / cammino; poi 9 tipi / triadi / origini / test).
+COSA E' CAMBIATO rispetto alla v31
+  1) BANDIERINE PIU' GRANDI su desktop: da 24x16 a 34x23 pixel. Su cellulare
+     restano piccole (22x15) per non occupare spazio al menu.
+  2) MENU MOBILE A GRIGLIA FISSA: non piu' dipendente dalla lunghezza delle
+     parole. In ITALIANO e INGLESE, su OGNI pagina, il menu e' sempre:
+       riga 1: logo ("Il Viaggio dell'Essere") con "Home" a destra;
+       riga 2: Il simbolo · Come funziona · Il cammino;
+       riga 3: I nove tipi · Triadi e Tipi · Origini · Test · bandierine.
+     Le traduzioni inglesi ("The nine types", "Triads and Types"...) non
+     spostano piu' nulla: la griglia assegna a ogni voce la sua cella.
+  3) BANDIERINE CHE "A VOLTE SCOMPAIONO" sul desktop: aggiunti gli attributi
+     width/height alle immagini, cosi' il browser riserva sempre lo spazio
+     anche mentre l'immagine sta caricando (o se la cache e' lenta). Se
+     dovesse capitare ancora: Ctrl+Maiusc+ Cancella cache una volta.
 
-CONTENUTO DEL PACCHETTO COMPLETO (caricare TUTTO, sovrascrivendo):
-  root: le 8 pagine HTML (?v=31), ISTRUZIONI.txt, questo file, README.md
-  css/style.css   (caricare in css/ minuscola)
-  assets/img/     le 8 immagini ITALIANE + le 2 bandierine
-                  (flag-it.png, flag-gb.png) — cartella minuscola
-  assets/img/en/  le 6 immagini INGLESI
-  assets/js/translate-fixes.js   (dizionario terminologia)
+FILE MODIFICATI rispetto alla v31: css/style.css, le 8 pagine HTML (?v=32),
+ISTRUZIONI.txt, questo file, README.md. File AGGIUNTI: NESSUNO.
 
 ISTRUZIONI
-  1. Carica TUTTI i file e le cartelle sovrascrivendo i precedenti.
+  1. Carica css/style.css (in css/) e le 8 pagine HTML nella root.
   2. Ctrl+F5.
-  3. Verifiche: bandierine visibili nel menu (fine, dopo "Test");
-     su cellulare, in inglese, il menu resta su 3 righe come in italiano;
-     🇬🇧 traduce testo, immagini e termini (dizionario).
+  3. Verifiche: bandierine grandi su desktop / piccole su cellulare;
+     su cellulare il menu e' IDENTICO in italiano e inglese, 3 righe fisse;
+     la disposizione non cambia cambiando pagina.
 
-File AGGIUNTI da v30: NESSUNO. File MODIFICATI: css/style.css, le 8 pagine
-HTML (?v=31), ISTRUZIONI.txt, questo file, README.md.
-
-Versione precedente: v30. Versione attuale: v31.
+Versione precedente: v31. Versione attuale: v32.
 ================================================================================

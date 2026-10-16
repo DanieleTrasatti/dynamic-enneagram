@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT31)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT32)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -40,7 +40,7 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v23 (versione DT31) — tutte le pagine lo caricano con ?v=23
+  css/style.css      Tema v23 (versione DT32) — tutte le pagine lo caricano con ?v=23
   assets/img/        8 immagini originali
 
 IL PERCORSO DEL VIAGGIO (sequenza DT23)
@@ -207,6 +207,13 @@ CRONOLOGIA VERSIONI
          aggiunta media query che rende il menu piu' compatto (font 11.5px,
          padding ridotto) cosi' mantiene le stesse 3 righe dell'italiano.
          CSS caricato con ?v=31.
+  DT32 → (a) bandierine PIU' GRANDI su desktop (34x23; su mobile restano
+         piccole 22x15). (b) Menu mobile A GRIGLIA FISSA: tre righe
+         IDENTICHE in IT e EN — logo+Home / simbolo-come funziona-cammino /
+         nove tipi-triadi-origini-test+bandierine — indipendente dalla
+         lunghezza delle parole. (c) attributi width/height sulle img delle
+         bandierine: lo spazio resta riservato anche se l'immagine tarda.
+         CSS caricato con ?v=32.
   DT31 → FIX BANDIERINE + MENU MOBILE: le bandierine PNG (flag-it, flag-gb)
          vanno ricaricate in assets/img/ (mancavano sul server: comparivano
          IT/EN con icona rotta). Su mobile, menu piu’ compatto (font 11.5px)
