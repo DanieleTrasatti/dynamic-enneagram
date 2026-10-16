@@ -1,40 +1,39 @@
 
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v29
- Immagini in inglese quando si sceglie la bandierina 🇬🇧
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v31 (fix bandierine + menu mobile)
 ================================================================================
-COSA E' CAMBIATO rispetto alla v28
-  Oltre al link del questionario, anche le IMMAGINI CON TESTO cambiano con
-  la lingua:
-  - ogni immagine traducibile (01 simbolo, 02 legge ottava, 03 triadi,
-    04 cammino, 05 tessere, 07 stella) ha un attributo data-en che punta
-    alla versione inglese nella nuova cartella assets/img/en/;
-  - in lingua inglese (cookie googtrans) lo script sostituisce lo src delle
-    immagini prima della visualizzazione: niente sfarfallio;
-  - le immagini 06 ("Test") e 08 (email) sono identiche nelle due lingue:
-    non vengono scambiate.
+QUESTA VERSIONE RISOLVE
+  1) BANDIERINE NON VISIBILI (scritta IT/EN + segnaposto rotto):
+     le immagini flag-it.png e flag-gb.png NON erano sul server (errore 404).
+     Sono incluse in questo pacchetto: caricarle in assets/img/ (accanto alle
+     altre immagini, NON dentro sottocartelle). Se l'immagine manca ancora,
+     controllare che il nome della cartella sia esattamente assets/img (tutto
+     minuscolo) e che i nomi file siano esattamente flag-it.png e flag-gb.png.
+  2) MENU SU CELLULARE IN INGLESE con una riga in piu':
+     le voci tradotte ("The nine types", "Triads and Types", ...) sono piu'
+     lunghe di quelle italiane e "Test" finiva da solo su una quarta riga.
+     Aggiunta una regola CSS che rende il menu piu' compatto su schermi
+     piccoli (carattere 11.5px, spazi ridotti): le voci tornano a occupare
+     le stesse 3 righe dell'italiano (Home accanto al titolo; poi simbolo /
+     come funziona / cammino; poi 9 tipi / triadi / origini / test).
 
-FILE AGGIUNTI (6) — da caricare in assets/img/en/ (cartella NUOVA, minuscola):
-  assets/img/en/01_simbolo_enneagramma.png
-  assets/img/en/02_legge_ottava.png
-  assets/img/en/03_triadi.png
-  assets/img/en/04_cammino_integrazione.png
-  assets/img/en/05_tessere_nove_tipi.png
-  assets/img/en/07_tipi_stella.png
-
-FILE MODIFICATI rispetto alla v28: le 8 pagine HTML (?v=29), ISTRUZIONI.txt,
-questo file, README.md. css/style.css e bandierine invariati.
+CONTENUTO DEL PACCHETTO COMPLETO (caricare TUTTO, sovrascrivendo):
+  root: le 8 pagine HTML (?v=31), ISTRUZIONI.txt, questo file, README.md
+  css/style.css   (caricare in css/ minuscola)
+  assets/img/     le 8 immagini ITALIANE + le 2 bandierine
+                  (flag-it.png, flag-gb.png) — cartella minuscola
+  assets/img/en/  le 6 immagini INGLESI
+  assets/js/translate-fixes.js   (dizionario terminologia)
 
 ISTRUZIONI
-  1. Carica le 8 pagine HTML nella root e la cartella assets/img/en/ con le
-     6 immagini (mantieni assets/img/ con quelle italiane e le bandierine).
+  1. Carica TUTTI i file e le cartelle sovrascrivendo i precedenti.
   2. Ctrl+F5.
-  3. Prova: apri Il simbolo → 🇬🇧 → grafica, titoli e box compaiono in
-     inglese; 🇮🇹 → torna tutto italiano. Vale anche per Triadi, Cammino,
-     I nove tipi, Home.
+  3. Verifiche: bandierine visibili nel menu (fine, dopo "Test");
+     su cellulare, in inglese, il menu resta su 3 righe come in italiano;
+     🇬🇧 traduce testo, immagini e termini (dizionario).
 
-(Ricorda il TODO della v28: sostituire in test.html il valore di data-en con
-l'URL inglese del questionario, se disponibile.)
+File AGGIUNTI da v30: NESSUNO. File MODIFICATI: css/style.css, le 8 pagine
+HTML (?v=31), ISTRUZIONI.txt, questo file, README.md.
 
-Versione precedente: v28. Versione attuale: v29.
+Versione precedente: v30. Versione attuale: v31.
 ================================================================================

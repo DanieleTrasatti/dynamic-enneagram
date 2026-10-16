@@ -1,5 +1,5 @@
 # enneagramma-dinamico
-Enneagramma — Il Viaggio dell'Essere (versione DT29).
-Sito italiano con gadget bilingue: bandierine PNG in fondo al menu; link del
-questionario e IMMAGINI con testo che cambiano con la lingua (data-en; immagini
-inglesi in assets/img/en/). Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE.txt.
+Enneagramma — Il Viaggio dell'Essere (versione DT31).
+Sito bilingue IT/EN: bandierine PNG (fix 404), menu mobile compatto anche in
+inglese, link/immagini/terminologia dipendenti dalla lingua.
+Vedi ISTRUZIONI.txt e ISTRUZIONI-INSTALLAZIONE.txt.

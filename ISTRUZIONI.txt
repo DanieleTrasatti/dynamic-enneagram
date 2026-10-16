@@ -1,4 +1,4 @@
-IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT29)
+IL VIAGGIO DELL'ESSERE — Sito sull'Enneagramma (versione DT31)
 ============================================================
 
 STRUTTURA DELLE CARTELLE
@@ -40,7 +40,7 @@ CONTENUTO DELLE PAGINE (8 pagine)
   origini.html       Origini dell'Enneagramma (Gurdjieff, Ichazo, Naranjo,
                      Riso-Hudson...) — Extra
   test.html          Test (questionario e istruzioni) — Tappa conclusiva
-  css/style.css      Tema v23 (versione DT29) — tutte le pagine lo caricano con ?v=23
+  css/style.css      Tema v23 (versione DT31) — tutte le pagine lo caricano con ?v=23
   assets/img/        8 immagini originali
 
 IL PERCORSO DEL VIAGGIO (sequenza DT23)
@@ -196,6 +196,22 @@ CRONOLOGIA VERSIONI
          inglese in assets/img/en/ (stessi nomi). In lingua inglese lo script
          sostituisce anche lo src delle immagini, non solo i link. File
          AGGIUNTI: assets/img/en/ (6 immagini). CSS caricato con ?v=29.
+  DT30 → TERMINOLOGIA FORZATA NELLA TRADUZIONE: nuovo file
+         assets/js/translate-fixes.js con un dizionario di correzioni per
+         Google Translate (es. Perfectionist → Reformer). Il file si modifica
+         in UN punto solo: una riga per termine. CSS caricato con ?v=30.
+  DT31 → FIX BANDIERINE + MENU MOBILE: (a) le bandierine PNG mancavano sul
+         server (404): caricare assets/img/flag-it.png e flag-gb.png; sono
+         incluse in questo pacchetto completo. (b) Su schermi piccoli le voci
+         inglesi sono piu' lunghe e andavano a capo in una riga in piu':
+         aggiunta media query che rende il menu piu' compatto (font 11.5px,
+         padding ridotto) cosi' mantiene le stesse 3 righe dell'italiano.
+         CSS caricato con ?v=31.
+  DT31 → FIX BANDIERINE + MENU MOBILE: le bandierine PNG (flag-it, flag-gb)
+         vanno ricaricate in assets/img/ (mancavano sul server: comparivano
+         IT/EN con icona rotta). Su mobile, menu piu’ compatto (font 11.5px)
+         perche’ le voci inglesi occupino le stesse 3 righe di quelle
+         italiane. CSS caricato con ?v=31.
   DT4  → baseline iniziale del progetto.
   DT5  → footer con email come immagine anti-oscuramento; Test reso
          tappa conclusiva del viaggio; eliminata la frase guida-menu

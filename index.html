@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home — Il Viaggio dell’Essere</title>
 <meta name="description" content="Cos’è l’Enneagramma: un percorso di conoscenza di sé in cinque tappe, dal simbolo ai nove tipi fino al Test.">
-<link rel="stylesheet" href="css/style.css?v=29">
+<link rel="stylesheet" href="css/style.css?v=31">
 </head>
 <body>
 <nav><div class="inner"><a class="logo" href="index.html">⬤ Il Viaggio dell’Essere</a><a class="nl active" href="index.html">Home</a><a class="nl" href="simbolo.html">Il simbolo</a><a class="nl" href="metodo.html">Come funziona</a><a class="nl" href="cammino.html">Il cammino</a><a class="nl" href="tipi.html">I nove tipi</a><a class="nl" href="triadi-tipi.html">Triadi e Tipi</a><a class="nl" href="origini.html">Origini</a><a class="nl" href="test.html"><strong>Test</strong></a><span class="lang-switch" title="Lingua / Language"><a href="#" onclick="return switchLang('it')" aria-label="Italiano" title="Italiano"><img src="assets/img/flag-it.png" alt="IT"></a><a href="#" onclick="return switchLang('en')" aria-label="English" title="English"><img src="assets/img/flag-gb.png" alt="EN"></a></span></div></nav>
@@ -36,5 +36,6 @@ function googleTranslateElementInit(){new google.translate.TranslateElement({pag
 function switchLang(l){var d=new Date();d.setTime(d.getTime()+86400000);if(l==='it'){document.cookie='googtrans=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/';}else{document.cookie='googtrans=/it/'+l+';expires='+d.toUTCString()+';path=/';}location.reload();return false;}
 window.addEventListener('load',function(){var m=document.cookie.match(/googtrans=\/it\/(\w+)/);if(m&&m[1]!='it'){document.querySelectorAll('[data-en]').forEach(function(a){if(a.tagName==='IMG'){a.src=a.getAttribute('data-en');}else{a.href=a.getAttribute('data-en');}});}});</script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="assets/js/translate-fixes.js"></script>
 </body>
 </html>
