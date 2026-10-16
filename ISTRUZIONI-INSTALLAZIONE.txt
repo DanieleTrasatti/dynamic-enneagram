@@ -1,29 +1,27 @@
 
 ================================================================================
- IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v34 (bandierine SVG + menu mobile)
+ IL VIAGGIO DELL'ESSERE — AGGIORNAMENTO v35 (selettore di lingua flottante)
 ================================================================================
-COSA E' CAMBIATO rispetto alla v33
-  1) BANDIERINE: non sono piu' immagini PNG ma SVG (disegni vettoriali)
-     dentro il codice della pagina. Vantaggi: non possono stirarsi MAI,
-     non spariscono MAI, non dipendono da file esterni, cache o connessione.
-     Le vecchie flag-it.png / flag-gb.png sul server diventano inutilizzate:
-     puoi cancellarle o lasciarle, fa lo stesso. Dimensioni: 36x24 su
-     desktop, 22x15 su mobile — rapporto fisso 3:2.
-  2) MENU MOBILE nuova disposizione:
-       riga 1: logo "Il Viaggio dell'Essere" + BANDIERINE (a destra);
-       riga 2: Home · Il simbolo · Come funziona · Il cammino;
-       riga 3: I nove tipi · Triadi e Tipi · Origini · Test.
-     Identica in IT e EN su ogni pagina.
+PERCHE' QUESTO CAMBIAMENTO
+  Dopo otto versioni di aggiustamenti nel menu (flex, griglia, PNG, cache),
+  il selettore di lingua e' stato spostato FUORI dal menu: e' ora un
+  PULSANTE FLOTTANTE in basso a destra (viola, con le bandierine SVG e le
+  scritte IT / EN), come nei grandi siti bilingui. Vantaggi:
+  - non puo' stirarsi, sparire o spostarsi: non dipende dal menu;
+  - identico su desktop, cellulare e ogni pagina;
+  - il menu torna esattamente com'era nella v23 (logo + 8 voci, niente altro);
+  - sempre visibile mentre si scorre la pagina.
 
-FILE MODIFICATI rispetto alla v33: le 8 pagine HTML (?v=34), css/style.css,
+FILE MODIFICATI rispetto alla v34: le 8 pagine HTML (?v=35), css/style.css,
 ISTRUZIONI.txt, questo file, README.md. File AGGIUNTI: NESSUNO.
-(Facoltativo: cancella assets/img/flag-it.png e flag-gb.png dal server.)
+(Facoltativo: cancella assets/img/flag-it.png e flag-gb.png, non usate.)
 
 ISTRUZIONI
   1. Carica le 8 pagine HTML nella root e css/style.css in css/.
   2. Ctrl+F5.
-  3. Verifiche: bandierine perfette su desktop e mobile; su mobile bandierine
-     in alto a destra, Home prima voce della seconda riga; menu identico IT/EN.
+  3. Verifica: in basso a destra compare il pulsante viola IT/EN con le
+     bandierine; 🇮🇹-flag/IT = italiano, bandiera UK/EN = traduzione inglese
+     sul posto (testo, immagini e terminologia come nelle versioni precedenti).
 
-Versione precedente: v33. Versione attuale: v34.
+Versione precedente: v34. Versione attuale: v35.
 ================================================================================
